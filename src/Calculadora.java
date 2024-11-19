@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Calculadora {
+public class calculadora {
     public static void main(String[] args){
         //Variables
         int result = 0;
@@ -25,10 +24,10 @@ public class Calculadora {
                     result = num1 + num2;
                 }
                 case 2->{ //Subtract option
-
+                    result = num1 - num2;
                 }
                 case 3->{ //Multiply option
-
+                    result = num1*num2;
                 }
                 case 4->{ //Division option
                     if(num1 == 0 || num2 == 0){ //In case of num1 or num2 == 0, the program print error.
